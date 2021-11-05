@@ -1,0 +1,25 @@
+@import 'colors';
+
+$link: $color-1;
+$visited-link: $color-3;
+$hover-link: $color-4;
+$active-link: $color-5;
+$background-color-link: lighten($color-3, 5%) ;
+
+a {
+    color: $link;
+}
+
+a:visited {
+    color: $visited-link;
+}
+
+a:hover {
+    color: $hover-link;
+    background-color: $background-color-link;
+}
+
+a:active {
+    color: $active-link;
+    background-color: $background-color-link;
+}
