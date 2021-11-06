@@ -1,13 +1,45 @@
-/* css Zen Garden default style v1.02 */
-/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
-
-/* This file based on 'Tranquille' by Dave Shea */
-/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
-/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
-
-/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
-
-/* basic elements */
+.page-wrapper {
+  display: grid;
+  max-width: 100%;
+}
+.main {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  align-content: space-between;
+  max-width: 67%;
+  height: 100%;
+  padding: 1em;
+}
+.preamble {
+  border: 1px solid #F3D5CE;
+  max-width: 67%;
+  padding: 6px;
+}
+.explanation {
+  border: 1px solid #F3D5CE;
+  border-radius: 3px;
+  padding: 6px;
+}
+.participation {
+  border: 1px solid #F3D5CE;
+  border-radius: 3px;
+  padding: 6px;
+}
+.benefits {
+  display: block;
+  height:22vw;
+  width:22vw;
+  border: 3px solid #F3D5CE;
+  border-radius: 50%;
+  text-align: center;
+  padding: 1.5em;
+}
+.requirements {
+  border: 1px solid #F3D5CE;
+  border-radius: 3px;
+  padding: 6px;
+} 
 html {
   margin: 0;
   padding: 0;
@@ -71,7 +103,10 @@ abbr {
 
 /* specific divs */
 .page-wrapper {
+<<<<<<< HEAD
   background: no-repeat top left;
+=======
+>>>>>>> 3270b9129bd648b29caca70f5edaffad1c0511c9
   padding: 0 175px 0 110px;
   margin: 0;
   position: relative;
@@ -83,8 +118,6 @@ abbr {
 }
 
 header h1 {
-  background: transparent url(http://csszengarden.com/001/h1.gif) no-repeat top
-    left;
   margin-top: 10px;
   display: block;
   width: 219px;
@@ -96,8 +129,6 @@ header h1 {
   overflow: hidden;
 }
 header h2 {
-  background: transparent url(http://csszengarden.com/001/h2.gif) no-repeat top
-    left;
   margin-top: 58px;
   margin-bottom: 40px;
   width: 200px;
