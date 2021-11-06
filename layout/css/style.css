@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Nunito&display=swap');
 .page-wrapper {
   display: grid;
   max-width: 100%;
@@ -56,7 +57,7 @@ body {
 }
 /*Typography*/
 h1 {
-   font-family: 'Nova Square', cursive;
+  font-family:'Nova Square', cursive;
   font-size: 5rem;
   line-height: 1.2;
   margin: 0 0 0.4em;
@@ -77,6 +78,8 @@ p {
   text-align: justify;
 }
 h3 {
+  font-family:'Nova Square', cursive;
+  font-size: 1.4rem;
   letter-spacing: 1px;
   margin-bottom: 0;
   color: #7d775c;
@@ -204,7 +207,7 @@ footer a:visited {
   text-align: center;
 }
 .sidebar .design-selection .select{
-  padding-top: 20%;
+  padding-top: 15%;
 }
 .sidebar .design-archives {
   background: linear-gradient(to bottom, #ebf9fe 0%, #ffccff 100%);
@@ -215,7 +218,7 @@ footer a:visited {
   text-align: center;
 }
 .sidebar .design-archives .archives{
-  padding-top: 30%;
+  padding-top: 15%;
 }
 .sidebar .zen-resources{
   background: linear-gradient(to bottom, #ebf9fe 0%, #ffccff 100%);
@@ -225,7 +228,7 @@ footer a:visited {
   text-align: center;
 }
 .sidebar .zen-resources .resources{
-  padding-top: 25%;
+  padding-top: 20%;
 }
 
 @media (min-width: 1000px){
