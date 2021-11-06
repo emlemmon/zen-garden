@@ -1,10 +1,12 @@
 @import 'colors';
+@import 'typography';
+@import 'layout';
 
 $link: $color-1;
 $visited-link: $color-3;
 $hover-link: $color-4;
 $active-link: $color-5;
-$background-color-link: lighten($color-3, 5%) ;
+$background-color-link: lighten($color-3, 5%);
 
 a {
     color: $link;
@@ -24,71 +26,84 @@ a:active {
     background-color: $background-color-link;
 }
 
-/*large screen
-.sidebar .design-selection {
-	margin-left: 600px; 
-	position: absolute; 
-	top: 0; 
-	right: 0;
-	}
-*/
-
-  /*.sidebar .wrapper { 
-      border: 1px solid #F3D5CE;
-      border-radius: 3px;
-      background: linear-gradient(to bottom, #EBF9FE 0%, #FFCCFF 200%);
-      box-shadow: 0 1px 1px rgba(#000, 0.05);
-      padding: 6px;
-      padding: 10px; 
-      margin-top: 150px; 
-      width: 130px; 
-      }
-      .design-selection{position: absolute; 
-      top: 40px; 
-      right: 0; 
-      width: 148px; 
-      height: 110px;}
-      */
-  
-  .sidebar ul {
+/*NAVIGATION*/
+.sidebar ul {
     margin: 0;
     padding: 0;
-  }
-  .sidebar li {
+}
+
+.sidebar li {
     line-height: 1.3em;
     display: block;
     padding-top: 5px;
     margin-bottom: 5px;
     list-style-type: none;
-  }
-  .sidebar li a:link {
-    color: #0e1820;
-  }
-  .sidebar li a:visited {
-    color: #1d2b40;
-  }
-  .sidebar nav li a:hover {
-    color: #f3d5ce;
-    background-color: lighten(#1d2b40, 5%);
-  }
-  .sidebar li a:active {
-    color: #ebf9fe;
-    background-color: lighten(#1d2b40, 5%);
-  }
-  
-  .sidebar .design-selection {
+}
+
+.sidebar li a:link {
+    color: $link;
+}
+
+.sidebar li a:visited {
+    color: $visited-link;
+}
+
+.sidebar nav li a:hover {
+    color: $hover-link;
+    background-color: $background-color-link;
+}
+
+.sidebar li a:active {
+    color: $active-link;
+    background-color: $background-color-link;
+}
+
+.sidebar .design-selection {
+    background: linear-gradient(to bottom, $color-5 0%, #ffccff 100%);
     border-radius: 400px;
     height: 400px;
     width: 400px;
-    
+    text-align: center;
+}
+.sidebar .design-selection .select{
+    padding-top: 20%;
   }
-  .sidebar .design-archives {
+.sidebar .design-archives {
+    background: linear-gradient(to bottom, $color-5 0%, #ffccff 100%);
     border-radius: 400px;
     height: 250px;
     width: 250px;
+    margin-left: 50%;
+    text-align: center;
+}
+.sidebar .design-archives .archives{
+    padding-top: 30%;
   }
-  .sidebar .zen-resources{
+.sidebar .zen-resources {
+    background: linear-gradient(to bottom, $color-5 0%, #ffccff 100%);
     border-radius: 400px;
     height: 325px;
     width: 325px;
+    text-align: center;
+}
+.sidebar .zen-resources .resources{
+    padding-top: 25%;
+  }
+
+@media (min-width: 1000px){
+    .sidebar .design-selection{
+      position: absolute; 
+      top: 100px; 
+      right: 20px; 
+    }
+    .sidebar .design-archives{
+      position: absolute; 
+      top: 500px; 
+      right: 200px;
+    }
+    .sidebar .zen-resources{
+      position: absolute; 
+      top: 745px; 
+      right: 40px; 
+    }
   }
