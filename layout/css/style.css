@@ -124,45 +124,8 @@ footer a:link,
 footer a:visited {
   margin-right: 20px;
 }
-/*large screen
-.sidebar .design-selection {
-	margin-left: 600px; 
-	position: absolute; 
-	top: 0; 
-	right: 0;
-	}
-*/
-.sidebar .design-selection {
-  border-radius: 50%;
-  background: linear-gradient(to bottom, #ebf9fe 0%, #ffccff 100%);
-}
-.sidebar .design-archives {
-  border-radius: 50%;
-  background: linear-gradient(to bottom, #ebf9fe 0%, #ffccff 100%);
-  position: relative;
-  line-height: 0;
-}
-.sidebar .zen-resources {
-  border-radius: 50%;
-  background: linear-gradient(to bottom, #ebf9fe 0%, #ffccff 100%);
-}
-/*.sidebar .wrapper { 
-	border: 1px solid #F3D5CE;
-    border-radius: 3px;
-    background: linear-gradient(to bottom, #EBF9FE 0%, #FFCCFF 200%);
-    box-shadow: 0 1px 1px rgba(#000, 0.05);
-    padding: 6px;
-	padding: 10px; 
-	margin-top: 150px; 
-	width: 130px; 
-	}
-	.design-selection{position: absolute; 
-	top: 40px; 
-	right: 0; 
-	width: 148px; 
-	height: 110px;}
-	*/
 
+/*NAVIGATION*/
 .sidebar ul {
   margin: 0;
   padding: 0;
@@ -190,18 +153,47 @@ footer a:visited {
 }
 
 .sidebar .design-selection {
+  background: linear-gradient(to bottom, #ebf9fe 0%, #ffccff 100%);
   border-radius: 400px;
   height: 400px;
   width: 400px;
   
 }
 .sidebar .design-archives {
+  background: linear-gradient(to bottom, #ebf9fe 0%, #ffccff 100%);
   border-radius: 400px;
   height: 250px;
   width: 250px;
 }
 .sidebar .zen-resources{
+  background: linear-gradient(to bottom, #ebf9fe 0%, #ffccff 100%);
   border-radius: 400px;
   height: 325px;
   width: 325px;
 }
+
+/*large screen
+.sidebar .design-selection {
+	margin-left: 600px; 
+	position: absolute; 
+	top: 0; 
+	right: 0;
+	}
+*/
+
+/*.sidebar .wrapper { 
+	border: 1px solid #F3D5CE;
+    border-radius: 3px;
+    background: linear-gradient(to bottom, #EBF9FE 0%, #FFCCFF 200%);
+    box-shadow: 0 1px 1px rgba(#000, 0.05);
+    padding: 6px;
+	padding: 10px; 
+	margin-top: 150px; 
+	width: 130px; 
+	}
+	.design-selection{position: absolute; 
+	top: 40px; 
+	right: 0; 
+	width: 148px; 
+	height: 110px;}
+	*/
