@@ -112,7 +112,7 @@ header {
 
 }
 .summary {
- border: 1px solid #F3D5CE;
+ border: 3px solid #F3D5CE;
  background-color: #0E1820;
  opacity: 0.8;
  padding: 6px;
@@ -132,8 +132,10 @@ footer {
   align-content: center;
   height: 40px;
   margin: 0 auto;
-  padding: 1em;
+  margin-bottom: .5em;
+  padding: .8em;
   width: 100%;
+  border: solid 3px #F3D5CE;
 }
 footer a:link,
 footer a:visited {
