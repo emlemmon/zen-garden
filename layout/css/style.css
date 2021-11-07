@@ -182,7 +182,11 @@ footer a:visited {
   text-align: center;
 }
 .sidebar .design-selection .select{
-  padding-top: 20%;
+  padding-top: 10%;
+}
+.sidebar .design-selection h3,
+.sidebar .design-selection li{
+  color:#0E1820
 }
 .sidebar .design-archives {
   background: linear-gradient(to bottom, #ebf9fe 0%, #ffccff 100%);
@@ -193,7 +197,11 @@ footer a:visited {
   text-align: center;
 }
 .sidebar .design-archives .archives{
-  padding-top: 30%;
+  padding-top: 20%;
+}
+.sidebar .design-archives h3,
+.sidebar .design-archives li{
+  color:#0E1820
 }
 .sidebar .zen-resources{
   background: linear-gradient(to bottom, #ebf9fe 0%, #ffccff 100%);
@@ -203,9 +211,12 @@ footer a:visited {
   text-align: center;
 }
 .sidebar .zen-resources .resources{
-  padding-top: 25%;
+  padding-top: 15%;
 }
-
+.sidebar .zen-resources h3,
+.sidebar .zen-resources li{
+  color:#0E1820
+}
 @media (min-width: 1000px){
   .sidebar .design-selection{
     position: absolute; 
