@@ -30,67 +30,73 @@ a:active {
 .sidebar ul {
     margin: 0;
     padding: 0;
-}
-
-.sidebar li {
+  }
+  .sidebar li {
     line-height: 1.3em;
     display: block;
     padding-top: 5px;
     margin-bottom: 5px;
     list-style-type: none;
-}
-
-.sidebar li a:link {
+  }
+  .sidebar li a:link {
     color: $link;
-}
-
-.sidebar li a:visited {
+  }
+  .sidebar li a:visited {
     color: $visited-link;
-}
-
-.sidebar nav li a:hover {
+  }
+  .sidebar nav li a:hover {
     color: $hover-link;
     background-color: $background-color-link;
-}
-
-.sidebar li a:active {
-    color: $active-link;
+  }
+  .sidebar li a:active {
+    color: #ebf9fe;
     background-color: $background-color-link;
-}
-
-.sidebar .design-selection {
+  }
+  
+  .sidebar .design-selection {
     background: linear-gradient(to bottom, $color-5 0%, #ffccff 100%);
     border-radius: 400px;
     height: 400px;
     width: 400px;
     text-align: center;
-}
-.sidebar .design-selection .select{
-    padding-top: 15%;
   }
-.sidebar .design-archives {
+  .sidebar .design-selection .select{
+    padding-top: 10%;
+  }
+  .sidebar .design-selection h3,
+  .sidebar .design-selection li{
+    color:$color-1
+  }
+  .sidebar .design-archives {
     background: linear-gradient(to bottom, $color-5 0%, #ffccff 100%);
     border-radius: 400px;
     height: 250px;
     width: 250px;
     margin-left: 50%;
     text-align: center;
-}
-.sidebar .design-archives .archives{
-    padding-top: 15%;
   }
-.sidebar .zen-resources {
+  .sidebar .design-archives .archives{
+    padding-top: 20%;
+  }
+  .sidebar .design-archives h3,
+  .sidebar .design-archives li{
+    color:$color-1
+  }
+  .sidebar .zen-resources{
     background: linear-gradient(to bottom, $color-5 0%, #ffccff 100%);
     border-radius: 400px;
     height: 325px;
     width: 325px;
     text-align: center;
-}
-.sidebar .zen-resources .resources{
-    padding-top: 20%;
   }
-
-@media (min-width: 1000px){
+  .sidebar .zen-resources .resources{
+    padding-top: 15%;
+  }
+  .sidebar .zen-resources h3,
+  .sidebar .zen-resources li{
+    color:$color-1
+  }
+  @media (min-width: 1000px){
     .sidebar .design-selection{
       position: absolute; 
       top: 100px; 
