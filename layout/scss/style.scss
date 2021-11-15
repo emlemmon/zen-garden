@@ -1,0 +1,103 @@
+@import 'partials/background';
+@import 'partials/colors';
+@import 'partials/layout';
+@import 'partials/navigation';
+@import 'partials/typography';
+
+.page-wrapper {
+    display: grid;
+    max-width: 100%;
+    padding: 0 75px 0 50px;
+    margin: 0;
+    position: relative;
+}
+.main {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  align-content: space-between;
+  max-width: 85%;
+  height: 100%;
+  padding: 1em;
+}
+.preamble, .explanation, .participation, .requirements {
+  padding: 1rem;
+}
+.benefits {
+    display: block;
+    height:22vw;
+    width:22vw;
+    border: 3px solid #F3D5CE;
+    border-radius: 50%;
+    text-align: center;
+    padding: 1rem;
+  }
+html {
+    margin: 0;
+    padding: 0;
+  }
+
+  a:link {
+    font-weight: bold;
+    text-decoration: none;
+    color: #b7a5df;
+  }
+  a:visited {
+    font-weight: bold;
+    text-decoration: none;
+    color: #d4cddc;
+  }
+  a:hover,
+  a:focus,
+  a:active {
+    text-decoration: underline;
+    color: #9685ba;
+  }
+  abbr {
+    border-bottom: none;
+  }
+/* specific divs */
+.intro {
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: space-between;
+    max-width: 67%;
+    height: 100%;
+    padding: .5em;
+  }
+  header {
+    flex-flow: row wrap;
+    padding-top: 10px;
+  
+  }
+  .summary {
+   border: 3px solid #F3D5CE;
+   background-color: #0E1820;
+   opacity: 0.8;
+   padding: 6px;
+  }
+  .summary p {
+    font: italic 1.1em/2.2 'nunito';
+    text-align: left;
+  }
+  
+  footer {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #0E1820;
+    opacity: 0.8;
+    font-size: 18px;
+    justify-content: center;
+    align-content: center;
+    height: 40px;
+    margin: 0 auto;
+    margin-bottom: .5em;
+    padding: .8em;
+    width: 100%;
+    border: solid 3px #F3D5CE;
+  }
+  footer a:link,
+  footer a:visited {
+    margin-right: 20px;
+  }  
+ 
