@@ -140,7 +140,6 @@ h1, h3 {
 
 h2, h4, p {
   font-family: "Nunito", sans-serif;
-  color: #F3D5CE;
 }
 
 h2 {
@@ -162,12 +161,16 @@ h3 {
 }
 
 header h1 {
-  color: #F3D5CE;
   font-size: 60px;
   line-height: 1.3em;
   justify-content: center;
   align-content: center;
   margin: 0 auto;
+}
+
+header h {
+  font-size: 27px;
+  text-align: center;
 }
 
 .page-wrapper {
