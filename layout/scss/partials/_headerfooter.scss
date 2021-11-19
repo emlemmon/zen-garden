@@ -1,0 +1,64 @@
+//headerfooter
+.intro {
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: space-between;
+    max-width: 67%;
+    height: 100%;
+    padding: .5em;
+}
+header {
+    flex-flow: row wrap;
+    padding-top: 10px;
+}
+.summary {
+    border: 3px solid $color-6;
+    background-color: rgba(28,33,47,0.6);
+    border-radius: 5px;
+    padding: 6px;
+}
+.summary p {
+    font: italic 1.1em/2.2 $secondary-font;
+    text-align: center;
+    color: $color-5;
+}
+.summary a:active {
+    text-decoration: none;
+    color: $color-4;
+}
+.summary a:hover {
+    color: $color-4;
+}
+
+
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: rgba(28,33,47,0.6);
+    font-size: 18px;
+    justify-content: center;
+    align-content: center;
+    height: 40px;
+    margin: 0 auto;
+    margin-bottom: 1.5em;
+    padding: .8em;
+    width: 100%;
+    border: solid 3px $color-6;
+    border-radius: 5px;
+}
+footer a:link {
+    color: $color-4;
+    margin-right: 20px;
+    text-decoration: none;
+}
+footer a:visited {
+    color: $color-6;
+    margin-right: 20px;
+    text-decoration: none;
+}  
+footer a:hover {
+    color: $color-2;
+    background-color: $color-5;
+    padding: 10px;
+    border-radius: 5px;
+}

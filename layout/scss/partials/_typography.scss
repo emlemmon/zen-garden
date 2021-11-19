@@ -1,39 +1,34 @@
-//Typography
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Nunito&display=swap');
 // fonts
-
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
-
-$nova-square: 'Nova Square', cursive;
-$nunito: 'Nunito', sans-serif;
+$primary-font: 'Nova Square', cursive;
+$secondary-font: 'Nunito', sans-serif;
 h1, h3 {
-  font-family: $nova-square;
+  font-family: $primary-font;
 }
-h2, h4, p {
-  font-family: $nunito;
-}
-h2 { 
-  font-weight: bold;
+h2 {
+  font-family: $primary-font;
+  font-size: 30px;
+  color: $color-4;
+  margin: 10px;
+  margin-bottom: 20px;
   text-transform: uppercase;
 }
-p {
-  font-family: 'Nunito', sans-serif;
-  font-size: 1.2rem;
-  letter-spacing: 0pt;
-  margin-top: 0;
+h1 {
+  font-size: 65px;
+  color: $color-5;
 }
 h3 {
-  font-size: 20px;
-  color: #F3D5CE;
-}
-header h1 {
-  font-size: 60px;
-  line-height: 1.3em;
-  justify-content: center;
-  align-content: center;
+  font-size: 30px;
+  color: $color-4;
   margin: 0 auto;
 }
-header h {
-  font-size: 27px;
-  text-align: center;
+p {
+  color: $color-5;
+  font-family: $secondary-font;
+  font-size: 18px;
+}
+a {
+  font-family: $secondary-font;
+  color: $color-6;
+  text-decoration: none;
 }
