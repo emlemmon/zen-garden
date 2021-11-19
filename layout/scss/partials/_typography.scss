@@ -7,21 +7,23 @@ h1, h3 {
 }
 h2 {
   font-family: $primary-font;
-  font-size: 30px;
+  font-size: 35px;
   color: $color-4;
   margin: 10px;
   margin-bottom: 20px;
   text-transform: uppercase;
 }
 h1 {
-  font-size: 65px;
+  font-size: 80px;
   color: $color-5;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 h3 {
   font-size: 30px;
   color: $color-4;
   margin: 0 auto;
-  color: #F3D5CE;
+  color: $color-4;
 }
 p {
   color: $color-5;
@@ -32,4 +34,27 @@ a {
   font-family: $secondary-font;
   color: $color-6;
   text-decoration: none;
+}
+h1 {
+  background: url(https://images.pexels.com/photos/3527786/pexels-photo-3527786.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260) repeat-y;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: aitf 80s linear infinite;
+    animation: aitf 80s linear infinite;
+
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+    @-webkit-keyframes aitf {
+      0% { background-position: 0% 50%; }
+      100% { background-position: 100% 50%;}
+    }
+    @keyframes aitf {
+      0% { background-position: 0% 50%; }
+      100% { background-position: 100% 50%; }
+    }
 }
