@@ -113,8 +113,7 @@ h1, h2 {
   height: 400px;
   width: 400px;
   text-align: center;
-  margin-left: 1%;
-  margin-top: 3%;
+  shape-outside: circle(50%);
 }
 
 .sidebar .design-selection .select {
@@ -132,7 +131,7 @@ h1, h2 {
   border-radius: 400px;
   height: 250px;
   width: 250px;
-  margin-left: 45%;
+  margin-left: 50%;
   text-align: center;
 }
 
@@ -152,9 +151,6 @@ h1, h2 {
   height: 325px;
   width: 325px;
   text-align: center;
-  margin-left: 6%;
-  margin-bottom: 5%;
-  margin-top: -3%;
 }
 
 .sidebar .zen-resources .resources {
@@ -285,6 +281,12 @@ footer a:hover {
   }
 }
 
+@media (min-width: 1000px) {
+  .summary {
+    position: absolute;
+  }
+}
+
 .page-wrapper {
   display: -ms-grid;
   display: grid;
@@ -329,13 +331,9 @@ footer a:hover {
 }
 
 .benefits {
-  text-align: right;
+  text-align: left;
   border-radius: 50%;
   margin: 1em;
-}
-
-.benefits h3 {
-  text-align: center;
 }
 
 html {

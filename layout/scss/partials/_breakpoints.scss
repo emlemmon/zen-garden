@@ -30,3 +30,8 @@ float: $float-direction;
         right: 40px; 
     }
 }
+@media (min-width: 1000px) {
+    .summary {
+        position: absolute;
+    }
+}

@@ -281,6 +281,12 @@ footer a:hover {
   }
 }
 
+@media (min-width: 1000px) {
+  .summary {
+    position: absolute;
+  }
+}
+
 .page-wrapper {
   display: -ms-grid;
   display: grid;
@@ -325,13 +331,9 @@ footer a:hover {
 }
 
 .benefits {
-  text-align: right;
+  text-align: left;
   border-radius: 50%;
   margin: 1em;
-}
-
-.benefits h3 {
-  text-align: center;
 }
 
 html {
