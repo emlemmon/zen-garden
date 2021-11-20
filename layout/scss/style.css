@@ -10,13 +10,16 @@ h2 {
   margin: 10px;
   margin-bottom: 20px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 h1 {
   font-size: 80px;
   color: #ebf9fe;
+  margin: 0 auto;
   margin-top: 10px;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 h3 {
@@ -200,6 +203,7 @@ header {
   border-radius: 5px;
   padding: 6px;
   max-width: 100%;
+  margin: 0 auto;
 }
 
 .summary p {
@@ -285,6 +289,9 @@ footer a:hover {
   .summary {
     max-width: 58%;
   }
+  h1, h2 {
+    text-align: left;
+  }
 }
 
 @media (min-width: 1600px) {
@@ -297,9 +304,8 @@ footer a:hover {
   display: -ms-grid;
   display: grid;
   max-width: 100%;
-  padding: 0 75px 0 50px;
+  padding: 0 50px 0 50px;
   margin: 0;
-  position: relative;
 }
 
 .main {
@@ -315,13 +321,15 @@ footer a:hover {
           align-items: center;
   -ms-flex-line-pack: justify;
       align-content: space-between;
-  max-width: 85%;
+  max-width: 100%;
   height: 100%;
   padding: 1em;
 }
 
 .preamble, .explanation, .participation, .requirements {
+  max-width: 100%;
   padding: 1rem;
+  margin: 0 auto;
 }
 
 .benefits::before {
