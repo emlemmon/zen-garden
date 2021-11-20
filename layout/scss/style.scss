@@ -26,15 +26,25 @@
 .preamble, .explanation, .participation, .requirements {
   padding: 1rem;
 }
+.benefits::before {
+  content: "";
+  background: url(https://images.unsplash.com/photo-1600470902715-816eb7817285?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+  border-radius: 50%;
+  background-position: 20px left;
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin: 1em;
+  shape-outside: circle(50%);
+}
 .benefits {
-    display: block;
-    height:22vw;
-    width:22vw;
-    border: 3px solid $color-4;
-    border-radius: 50%;
-    text-align: center;
-    padding: 1rem;
-  }
+  text-align: center;
+  border-radius: 50%; 
+}
+.benefits h3{
+  text-align: center;
+}
+
 html {
     margin: 0;
     padding: 0;
