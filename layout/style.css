@@ -199,7 +199,7 @@ header {
   background-color: rgba(28, 33, 47, 0.6);
   border-radius: 5px;
   padding: 6px;
-  margin-bottom: 10px;
+  max-width: 100%;
 }
 
 .summary p {
@@ -283,7 +283,13 @@ footer a:hover {
 
 @media (min-width: 1000px) {
   .summary {
-    position: absolute;
+    max-width: 58%;
+  }
+}
+
+@media (min-width: 1600px) {
+  .summary {
+    max-width: 75%;
   }
 }
 

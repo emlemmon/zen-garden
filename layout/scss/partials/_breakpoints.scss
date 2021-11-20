@@ -32,6 +32,11 @@ float: $float-direction;
 }
 @media (min-width: 1000px) {
     .summary {
-        position: absolute;
+      max-width: 58%;
     }
-}
+  }
+  @media (min-width: 1600px) {
+    .summary {
+      max-width: 75%;
+    }
+  }
