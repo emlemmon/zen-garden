@@ -37,11 +37,13 @@
   margin: 1em;
   shape-outside: circle(50%);
 }
-
 .benefits {
   text-align: left;
   border-radius: 50%;
   margin: 1em;
+}
+.benefits h3 {
+  text-align: left;
 }
 
 html {
