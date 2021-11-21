@@ -30,15 +30,16 @@
     width: 275px;
     height: 275px;
     float: left;
-    margin: .5em;
+    margin: 0 auto;
     margin-right: 2.5em;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
+    margin-top: 1em;
     -webkit-background-clip: border-box;
     background-clip: border-box;
 
     -webkit-text-fill-color: transparent;
-    -webkit-animation: aitf 80s linear infinite;
-    animation: aitf 80s linear infinite;
+    -webkit-animation: aitf 85s linear infinite;
+    animation: aitf 85s linear infinite;
 
     -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
@@ -60,7 +61,7 @@
 .benefits {
   text-align: left;
   border-radius: 50%;
-  margin: 1em;
+  margin: 0 auto;
 }
 .benefits h3 {
   text-align: left;

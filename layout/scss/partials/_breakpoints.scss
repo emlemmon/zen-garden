@@ -52,12 +52,12 @@ $L: 1600px;
     right: 40px;
   }
 
-  .summary, .preamble, .explanation, {
-    margin: 1em;
+  .summary, .preamble, .explanation {
+    margin: 0 auto;
     max-width: 50%;
   }
   .participation, .requirements {
-    margin: 1em;
+    margin: 0 auto;
   }
   h1,
   h2 {
