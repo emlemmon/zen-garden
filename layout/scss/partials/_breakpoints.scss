@@ -31,19 +31,22 @@ float: $float-direction;
     }
 }
 @media (min-width: 1000px) {
-    .summary {
-      max-width: 58%;
-    }
-    h1, h2 {
-        text-align: left;
-    }
+  .summary {
+    margin: 1em;
+    max-width: 50%;
   }
-  @media (min-width: 1600px) {
-    .summary {
-      max-width: 75%;
-    }
+  h1, h2 {
+    text-align: left;
   }
-  @media (min-width: 580px) {
+}
+
+@media (min-width: 1400px) {
+  .summary {
+    margin: 1em;
+    max-width: 65%;
+  }
+}
+@media (min-width: 580px) {
     .benefits::before {
       content: "";
       background: url(https://images.unsplash.com/photo-1600470902715-816eb7817285?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
@@ -55,4 +58,4 @@ float: $float-direction;
       margin: 1em;
       shape-outside: circle(50%);
     }
-  }
+}

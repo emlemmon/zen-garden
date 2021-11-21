@@ -287,16 +287,18 @@ footer a:hover {
 
 @media (min-width: 1000px) {
   .summary {
-    max-width: 58%;
+    margin: 1em;
+    max-width: 50%;
   }
   h1, h2 {
     text-align: left;
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1400px) {
   .summary {
-    max-width: 75%;
+    margin: 1em;
+    max-width: 65%;
   }
 }
 
