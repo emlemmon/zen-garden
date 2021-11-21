@@ -30,7 +30,32 @@
     width: 275px;
     height: 275px;
     float: left;
-    margin: 1em;
+    margin: .5em;
+    margin-right: 2.5em;
+    margin-bottom: 1em;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: aitf 80s linear infinite;
+    animation: aitf 80s linear infinite;
+
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+    @-webkit-keyframes aitf {
+      0% { background-position: 30% 80%; }
+      100% { background-position: 100% 50%;}
+    }
+    @keyframes aitf {
+      0% { background-position: 30% 80%; }
+      100% { background-position: 100% 50%; }
+    } 
+    -webkit-box-shadow: 20px 20px 24px 8px rgba(0,0,0,0.77);
+    -moz-box-shadow: 20px 20px 24px 8px rgba(0,0,0,0.77);
+    box-shadow: 20px 20px 24px 8px rgba(0,0,0,0.77);
 }
 .benefits {
   text-align: left;
