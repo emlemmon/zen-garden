@@ -203,6 +203,7 @@ header {
   border-radius: 5px;
   padding: 6px;
   max-width: 100%;
+  margin: 0 auto;
 }
 
 .summary p {
@@ -299,6 +300,20 @@ footer a:hover {
   }
 }
 
+@media (min-width: 580px) {
+  .benefits::before {
+    content: "";
+    background: url(https://images.unsplash.com/photo-1600470902715-816eb7817285?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+    border-radius: 50%;
+    background-position: 20px left;
+    width: 275px;
+    height: 275px;
+    float: left;
+    margin: 1em;
+    shape-outside: circle(50%);
+  }
+}
+
 .page-wrapper {
   display: -ms-grid;
   display: grid;
@@ -336,11 +351,10 @@ footer a:hover {
   background: url(https://images.unsplash.com/photo-1600470902715-816eb7817285?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
   border-radius: 50%;
   background-position: 20px left;
-  width: 275px;
-  height: 275px;
+  width: 250px;
+  height: 250px;
   float: left;
   margin: 1em;
-  shape-outside: circle(50%);
 }
 
 .benefits {
