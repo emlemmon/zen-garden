@@ -239,21 +239,37 @@ footer a:hover {
     right: 40px; }
 
   .summary, .preamble, .explanation {
-    margin: 0 auto;
+    margin: 0;
     max-width: 50%; }
 
-  .participation, .requirements {
-    margin: 0 auto; }
+  .explanation {
+    margin: 0;
+    max-width: 60%; }
+
+  .participation {
+    margin: 0;
+    max-width: 90%; }
+
+  .requirements {
+    margin: 0; }
 
   h1,
   h2 {
     text-align: left; } }
+@media (min-width: 1280px) {
+  .participation {
+    margin: 0;
+    max-width: 95%; } }
 @media (min-width: 1400px) {
   .summary, .preamble, .explanation {
-    max-width: 65%; } }
-@media (min-width: 1512px) {
+    max-width: 65%; }
+
   .participation {
-    max-width: 65%; } }
+    max-width: 73%; } }
+@media (min-width: 1500px) {
+  .participation {
+    margin: 0;
+    max-width: 78%; } }
 @media (min-width: 580px) {
   .benefits::before {
     content: "";
