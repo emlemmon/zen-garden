@@ -5,37 +5,60 @@ $L: 1600px;
 
 // super light grid - it works with the .cd-container class inside style.scss
 @mixin column($percentage, $float-direction:left) {
-width: 100% * $percentage;
-float: $float-direction;
-    }
+  width: 100% * $percentage;
+  float: $float-direction;
+}
 
 
-/*@media (min-width: 500px){
+@media (max-width: 530px) {
+  .sidebar .design-selection {
+    border-radius: 400px;
+    height: 350px;
+    width: 350px;
+  }
 
-}*/
-@media (min-width: 1000px){
-    .sidebar .design-selection{
-        position: absolute; 
-        top: 100px; 
-        right: 20px; 
-    }
-    .sidebar .design-archives{
-        position: absolute; 
-        top: 500px; 
-        right: 200px;
-    }
-    .sidebar .zen-resources{
-        position: absolute; 
-        top: 745px; 
-        right: 40px; 
-    }
+  .sidebar .design-archives {
+    margin-top: 5%;
+    margin-left: 30%;
+  }
+}
+@media(min-width: 531px){
+  .sidebar .design-selection{
+    margin-left: 5%;
+  }
+  .sidebar .design-archives {
+    margin-left: 50%;
+  }
+  .sidebar .zen-resources{
+    margin-left: 15%;
+  }
 }
 @media (min-width: 1000px) {
-  .summary, .preamble, .explanation {
+  .sidebar .design-selection {
+    position: absolute;
+    top: 100px;
+    right: 20px;
+  }
+
+  .sidebar .design-archives {
+    position: absolute;
+    top: 500px;
+    right: 200px;
+  }
+
+  .sidebar .zen-resources {
+    position: absolute;
+    top: 745px;
+    right: 40px;
+  }
+
+  .summary, .preamble, .participation {
     margin: 1em;
     max-width: 50%;
   }
-  h1, h2 {
+
+  h1,
+  h2 {
     text-align: left;
   }
 }
@@ -55,16 +78,17 @@ float: $float-direction;
     max-width: 65%;
   }
 }
+
 @media (min-width: 580px) {
-    .benefits::before {
-      content: "";
-      background: url(https://images.unsplash.com/photo-1600470902715-816eb7817285?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
-      border-radius: 50%;
-      background-position: 20px left;
-      width: 250px;
-      height: 250px;
-      float: left;
-      margin: 1em;
-      shape-outside: circle(50%);
-    }
+  .benefits::before {
+    content: "";
+    background: url(https://images.unsplash.com/photo-1600470902715-816eb7817285?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+    border-radius: 50%;
+    background-position: 20px left;
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin: 1em;
+    shape-outside: circle(50%);
+  }
 }
