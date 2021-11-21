@@ -236,23 +236,21 @@ footer a:hover {
     top: 745px;
     right: 40px; }
 
-  .summary, .preamble, .participation {
+  .summary, .preamble, .explanation {
     margin: 1em;
     max-width: 50%; }
+
+  .participation, .requirements {
+    margin: 1em; }
 
   h1,
   h2 {
     text-align: left; } }
 @media (min-width: 1400px) {
   .summary, .preamble, .explanation {
-    margin: 1em;
-    max-width: 65%; }
-
-  .participation {
-    margin: 1em; } }
+    max-width: 65%; } }
 @media (min-width: 1512px) {
   .participation {
-    margin: 1em;
     max-width: 65%; } }
 @media (min-width: 580px) {
   .benefits::before {
