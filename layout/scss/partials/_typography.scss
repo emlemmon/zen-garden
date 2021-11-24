@@ -39,7 +39,7 @@ a {
   text-decoration: none;
 }
 h1, h2{
-  background: url(https://images.pexels.com/photos/3527786/pexels-photo-3527786.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260) repeat-y;
+  background: url(https://images.pexels.com/photos/3527786/pexels-photo-3527786.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260) repeat-x;
     -webkit-background-clip: text;
     background-clip: text;
 
@@ -54,7 +54,7 @@ h1, h2{
 
     @-webkit-keyframes aitf {
       0% { background-position: 0% 50%; }
-      100% { background-position: 100% 50%;}
+      100% { background-position: 100% 50%; }
     }
     @keyframes aitf {
       0% { background-position: 0% 50%; }
