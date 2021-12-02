@@ -1,0 +1,45 @@
+@media (max-width: 1000px) {
+    .view-css a::before {
+        content: url('images/shuttle.png');
+    }
+    .view-css a:hover::before {
+        filter: invert(100%);
+    }
+    .css-resources a::before {
+        content: url('images/orbit.png');
+    }
+    .css-resources a:hover::before {
+        filter: invert(100%);
+    }
+    .zen-faq a::before {
+        content: url('images/alien.png');
+    }
+    .zen-faq a:hover::before {
+        filter: invert(100%);
+    }
+    .zen-submit a::before {
+        content: url('images/satellite.png');
+    }
+    .zen-submit a:hover::before {
+        filter: invert(100%);
+    }
+    .zen-translations a::before {
+        content: url('images/star.png');
+    }
+    .zen-translations a:hover::before {
+        filter: invert(100%);
+    }
+    .next a::before {
+        content: url('images/arrow-icon.png');
+    }
+    .next a:hover::before {
+        filter: invert(100%);
+    }
+    .viewall a::before {
+        content: url('images/eye.png');
+        filter: invert(100%);
+    }
+    .viewall a:hover::before {
+        filter: invert(0%);
+    }
+}

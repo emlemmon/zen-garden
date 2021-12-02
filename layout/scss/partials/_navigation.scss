@@ -56,6 +56,7 @@ $background-color-link: lighten($color-3, 5%);
     .sidebar .design-selection li{
     color:$color-1
 }
+@media (min-width: 1000px) {
 .sidebar .design-archives {
     background: linear-gradient(to bottom, $color-5 0%, #ffccff 100%);
     border-radius: 400px;
@@ -74,20 +75,69 @@ $background-color-link: lighten($color-3, 5%);
 .sidebar .design-archives li{
     color:$color-1
 }
-.sidebar .zen-resources{
-    background: linear-gradient(to bottom, $color-5 0%, #ffccff 100%);
-    border-radius: 400px;
-    height: 325px;
-    width: 325px;
-    text-align: center;
-    -webkit-box-shadow: 20px 20px 24px 8px rgba(0,0,0,0.77);
-    -moz-box-shadow: 20px 20px 24px 8px rgba(0,0,0,0.77);
-    box-shadow: 20px 20px 24px 8px rgba(0,0,0,0.77);
 }
-.sidebar .zen-resources .resources{
-    padding-top: 15%;
+@media (max-width: 1000px) {
+    .sidebar .design-archives {
+        list-style: none;
+    }
+    .sidebar .design-archives ul {
+        display: flex;
+        align-items: center;
+    }
+    .sidebar .design-archives ul li a:hover {
+        color: transparent;
+        background: transparent;
+    }
+    .sidebar .design-archives li a {
+        color: transparent;
+        font-size: 2px;
+    }
 }
-.sidebar .zen-resources h3,
-.sidebar .zen-resources li {
-    color:$color-1
+@media (min-width: 1000px) {
+    .sidebar .zen-resources{
+        background: linear-gradient(to bottom, $color-5 0%, #ffccff 100%);
+        border-radius: 400px;
+        height: 325px;
+        width: 325px;
+        text-align: center;
+        -webkit-box-shadow: 20px 20px 24px 8px rgba(0,0,0,0.77);
+        -moz-box-shadow: 20px 20px 24px 8px rgba(0,0,0,0.77);
+        box-shadow: 20px 20px 24px 8px rgba(0,0,0,0.77);
+    }
+    .sidebar .zen-resources .resources{
+        padding-top: 15%;
+    }
+    .sidebar .zen-resources h3,
+    .sidebar .zen-resources li {
+        color:$color-1
+    }
+}
+@media (max-width: 1000px) {
+    .sidebar .zen-resources {
+        margin-bottom: 1em;
+        padding: 0;
+    }
+    .resources {
+        margin-bottom: .5em;
+    }
+    .sidebar .zen-resources ul {
+        list-style: none;
+        border: 3px solid $color-6;
+        background-color:  rgba(28,33,47,0.6);
+        border-radius: 5px;
+        display: flex;
+        margin: .5em;
+        padding: 1em;
+        padding-top: 1.5em;
+        justify-content: space-around;
+    }
+    .sidebar .zen-resources li {
+        margin: .5px;
+        padding: .3em;
+        padding-top: 1em;
+    }
+    .sidebar .zen-resources li a {
+        color: transparent;
+        font-size: 1px;
+    }
 }

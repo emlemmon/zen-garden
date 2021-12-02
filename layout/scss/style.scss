@@ -4,13 +4,13 @@
 @import 'partials/background';
 @import 'partials/headerfooter';
 @import 'partials/breakpoints';
-
+@import 'partials/icons';
 //body;
 
 .page-wrapper {
     display: grid;
     max-width: 100%;
-    padding: 0 50px 0 50px;
+    padding: 2em;
     margin: 0;
 }
 .main {
@@ -30,7 +30,6 @@
     width: 275px;
     height: 275px;
     float: left;
-    margin: 0 auto;
     margin-right: 2.5em;
     margin-bottom: 2em;
     margin-top: 1em;
