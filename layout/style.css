@@ -440,10 +440,11 @@ footer a:hover {
     filter: invert(100%); }
 
   .next a::before {
-    content: url("images/arrow-icon.png"); }
+    content: url("images/next.png");
+    filter: invert(100%); }
 
   .next a:hover::before {
-    filter: invert(100%); }
+    filter: invert(0%); }
 
   .viewall a::before {
     content: url("images/eye.png");
