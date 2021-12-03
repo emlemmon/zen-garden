@@ -13,40 +13,44 @@ $L: 1600px;
 @media (max-width: 530px) {
   .sidebar .design-selection {
     border-radius: 400px;
-    height: 350px;
-    width: 350px;
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
   }
 
   .sidebar .design-archives {
-    margin-top: 5%;
-    margin-left: 30%;
+    margin: 0 auto;
+    margin-top: 10%;
   }
 }
 @media(min-width: 531px){
   .sidebar .design-selection{
-    margin-left: 5%;
+    margin: 0 auto;
   }
   .sidebar .design-archives {
-    margin-left: 50%;
+    margin-left: 0 auto;
+    margin-top: 7%;
   }
 }
 
 @media (min-width: 1000px) {
   .sidebar .design-selection {
     position: absolute;
-    top: 100px;
-    right: 20px;
+    top: 200px;
+    right: 30px;
   }
-
+  h1 {
+    margin-left: 3em;
+  }
   .sidebar .design-archives {
     position: absolute;
-    top: 500px;
-    right: 200px;
+    top: 525px;
+    right: 230px;
   }
 
   .sidebar .zen-resources {
     position: absolute;
-    top: 745px;
+    top: 840px;
     right: 40px;
   }
 
@@ -79,6 +83,23 @@ $L: 1600px;
     margin: 0;
     max-width: 95%;
   }
+  .sidebar .design-selection {
+    position: absolute;
+    top: 200px;
+    right: 75px;
+  }
+
+  .sidebar .design-archives {
+    position: absolute;
+    top: 510px;
+    right: 300px;
+  }
+
+  .sidebar .zen-resources {
+    position: absolute;
+    top: 820px;
+    right: 60px;
+  }
 }
 
 @media (min-width: 1400px) {
@@ -87,6 +108,23 @@ $L: 1600px;
   }
   .participation {
     max-width: 73%;
+  }
+  .sidebar .design-selection {
+    position: absolute;
+    top: 200px;
+    right: 60px;
+  }
+
+  .sidebar .design-archives {
+    position: absolute;
+    top: 510px;
+    right: 260px;
+  }
+
+  .sidebar .zen-resources {
+    position: absolute;
+    top: 850px;
+    right: 60px;
   }
 }
 @media (min-width: 1500px) {
@@ -107,5 +145,20 @@ $L: 1600px;
     float: left;
     margin: 1em;
     shape-outside: circle(50%);
+  }
+}
+@media (min-width: 900px){
+  .intro::before {
+    margin: 5%;
+  }
+}
+@media (min-width: 970px) {
+  .intro::before {
+    margin: 0 auto;
+  }
+}
+@media (min-width: 1000px) {
+  .intro::before {
+    margin: 1rem;
   }
 }

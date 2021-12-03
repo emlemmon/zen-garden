@@ -12,6 +12,33 @@ header {
     padding-top: 10px;
     margin: 0 auto;
 }
+.intro::before {
+    content: "";
+    background: url(https://images.unsplash.com/photo-1600470902715-816eb7817285?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+    border-radius: 50%;
+    background-position: 20px left;
+    width: 185px;
+    height: 185px;
+    float: left;
+    margin: 1rem;
+    margin-bottom: 5%;
+
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: aitf 85s linear infinite;
+    animation: aitf 85s linear infinite;
+
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+    -webkit-box-shadow: 20px 20px 24px 8px rgba(0,0,0,0.77);
+    -moz-box-shadow: 20px 20px 24px 8px rgba(0,0,0,0.77);
+    box-shadow: 20px 20px 24px 8px rgba(0,0,0,0.77);
+}
 .summary {
     border: 3px solid $color-6;
     background-color: rgba(28,33,47,0.6);
