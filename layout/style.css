@@ -409,7 +409,10 @@ footer a:hover {
     margin: 0 auto; } }
 @media (min-width: 1000px) {
   .intro::before {
-    margin: 1rem; } }
+    margin: 1rem; }
+
+  h2 {
+    margin-bottom: 50px; } }
 @media (max-width: 1000px) {
   .view-css a::before {
     content: url("images/shuttle.png"); }
